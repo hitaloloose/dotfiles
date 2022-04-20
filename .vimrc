@@ -103,7 +103,7 @@ let g:airline_powerline_fonts = 1
 
 
 " COC """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:coc_global_extensions = [ 'coc-pairs' ]
+let g:coc_global_extensions = [ 'coc-pairs', 'coc-tsserver' ]
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
